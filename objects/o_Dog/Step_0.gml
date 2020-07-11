@@ -1,3 +1,15 @@
+//WallCollision
+if (place_meeting(x,y,o_Wall) && GetAwayFromWall==true)
+{
+	GetAwayFromWall=false;
+	FindAnotherPosition=true;
+}
+else if (!place_meeting(x,y,o_Wall))
+{
+	GetAwayFromWall=true;
+}
+
+
 if (DogState="Walking")
 {
 	if (FoundArea==false)
@@ -10,6 +22,8 @@ if (DogState="Walking")
 				FoundArea=true;
 				AreaToFollow=Area;
 				AreaToFollow.image_index=1;
+				if (place_meeting(AreaToFollow.x,AreaToFollow.y,o_Wall))
+				FindAnotherPosition=true;
 			}
 		}
 	}
@@ -87,5 +101,15 @@ if (FoundArea==true && !position_meeting(x,y,AreaToFollow))
 
 else
 speed=0;
+
+
+if (FindAnotherPosition==true)
+{
+	speed=0;
+	alarm[0]=1;
+}
+
+
+
 
 

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "74ecf2b3-f10a-474b-af57-ca9f1076394d",
+            "Value": {
+                "id": "9ec2a9fb-1aa2-4f28-8475-318da3669882",
+                "resourcePath": "sprites\\s_Wall\\s_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "7752e9ae-7e88-4e5d-9297-7d40da3c6ec2",
@@ -156,6 +164,14 @@
                 "id": "e7c1197a-5619-4330-bb4b-0897851a7e1f",
                 "resourcePath": "fonts\\f_PixelNarrative\\f_PixelNarrative.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8f85f544-b7b3-4197-b1f3-0f584c654a1b",
+            "Value": {
+                "id": "b3e946e1-84f4-4ae1-a856-9a3235b41c35",
+                "resourcePath": "objects\\o_Grass\\o_Grass.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "af2ce18b-50f1-4659-bb56-905a8acdde49",
+            "Value": {
+                "id": "d10645c1-c29d-45fc-bf53-c01c8db00ca0",
+                "resourcePath": "objects\\o_Wall\\o_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b50ae8b6-2b94-41b8-92cc-c084e50e34e2",
             "Value": {
                 "id": "f7e3f9ac-6930-40c4-8fae-549e3e72b770",
@@ -220,6 +244,22 @@
                 "id": "a983164d-8e7c-4670-94d3-a496b5d07fa0",
                 "resourcePath": "sprites\\s_Dog\\s_Dog.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c414757b-3d89-4eda-96fa-f09363cffb19",
+            "Value": {
+                "id": "850798ac-ccb6-487d-ae34-069e968c22c1",
+                "resourcePath": "sprites\\s_Grass\\s_Grass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6bfe6c3-3bef-43d4-afba-0176b38f9edf",
+            "Value": {
+                "id": "1689bd5c-6d39-4f1b-8259-ded4e4d849ed",
+                "resourcePath": "objects\\o_Camera\\o_Camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {

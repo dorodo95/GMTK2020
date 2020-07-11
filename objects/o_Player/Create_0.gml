@@ -1,11 +1,16 @@
 WalkSpeed=1.2;
 Direction=0;
-DogSpeed=1;
+DogSpeed=0.5;
 AreaList=ds_list_create();
 
 AreaListTest=0;
 
 
+BulletSpeed=5;
+BulletSpread=1;
+FiringDelay=0;
+FiringDelayValue=15;
+DistanceForBulletSpawn=10;
 
 for (var i = 0; i <= 7; i += 1)
 {

@@ -14,3 +14,6 @@ WalkingSpeed=2;
 
 
 ForcePositionTest=false;
+GetAwayFromWall=false;
+
+FindAnotherPosition=false;

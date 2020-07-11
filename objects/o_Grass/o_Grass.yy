@@ -1,19 +1,10 @@
 {
-    "id": "8762888b-885b-43c6-b21c-c894b5c2b24d",
+    "id": "8f85f544-b7b3-4197-b1f3-0f584c654a1b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Bullet",
+    "name": "o_Grass",
     "eventList": [
-        {
-            "id": "b01c0d62-f254-4145-99dd-bb6a6cc28e60",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "8762888b-885b-43c6-b21c-c894b5c2b24d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8fe6d92e-5ef8-48fd-9e84-fe281f742f44",
+    "spriteId": "c414757b-3d89-4eda-96fa-f09363cffb19",
     "visible": true
 }
