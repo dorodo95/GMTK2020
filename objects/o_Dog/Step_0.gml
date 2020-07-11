@@ -1,6 +1,6 @@
 if (instance_exists(o_WavesAI))
 {
-	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true)
+	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true && DogState!="PetTheDogHappening")
 	{
 		DogState="Sitted";
 	}

@@ -34,3 +34,12 @@ part_type_direction(myParticle,0,180,0,0);
 part_type_speed(myParticle,0.1,0.3,0,0);
 
 part_system_depth(myParticle,201);
+
+
+
+//CreateWeapon
+instance_create_layer(x,y,"Weapon",o_Weapon);
+
+
+MoveX=0;
+MoveY=0;

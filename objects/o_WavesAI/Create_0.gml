@@ -1,6 +1,6 @@
 WaveNumber=0;
 
-SpawnNumberWave[0]=10;
+SpawnNumberWave[0]=1;
 SpawnCadenceWave[0]=50;
 
 SpawnNumberWave[1]=20;

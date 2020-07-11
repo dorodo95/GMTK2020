@@ -56,22 +56,8 @@ if (instance_exists(o_Dog))
 	}
 }
 
-image_angle = point_direction(x,y,mouse_x,mouse_y);
-
-
-
-if (MouseClick==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
-{
-	FiringDelay=FiringDelayValue;
-	var _xx = x + lengthdir_x(DistanceForBulletSpawn, image_angle);
-	var _yy = y + lengthdir_y(DistanceForBulletSpawn, image_angle);
-
-	with (instance_create_layer(_xx,_yy,"Bullets",o_Bullet))
-	{
-		speed = other.BulletSpeed;
-		direction = other.image_angle + random_range(-other.BulletSpread,other.BulletSpread);
-		image_angle = direction;
-		
-	}
-}
-FiringDelay--;
+//Mirror Image
+if (MoveX>0)
+image_xscale=1;
+else
+image_xscale=-1;

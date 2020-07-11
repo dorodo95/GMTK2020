@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "44db6e19-9b90-40d6-863f-fe4adf4755d6",
+            "Value": {
+                "id": "cbef8d4e-653c-4df5-9aef-d18e85201648",
+                "resourcePath": "objects\\o_Weapon\\o_Weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b8ea219-67c8-4e24-a8a8-1f7c9714243b",
             "Value": {
                 "id": "16c29442-d471-40a3-9f70-00bd97333e51",
