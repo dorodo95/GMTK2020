@@ -1,8 +1,8 @@
 {
-    "id": "8f85f544-b7b3-4197-b1f3-0f584c654a1b",
+    "id": "94b14bdd-9838-4a96-9561-a064137c1091",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Grass",
+    "name": "o_bench",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "4eaa50c4-c41a-4343-a402-b9825a63bfa5",
     "visible": true
 }

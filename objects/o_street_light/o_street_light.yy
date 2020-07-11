@@ -1,8 +1,8 @@
 {
-    "id": "8f85f544-b7b3-4197-b1f3-0f584c654a1b",
+    "id": "3d1a40ca-1608-4db2-a87e-bcc0d6f85dcd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Grass",
+    "name": "o_street_light",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "78bb9f36-9cfe-43e7-aa58-8cb503c76b64",
     "visible": true
 }
