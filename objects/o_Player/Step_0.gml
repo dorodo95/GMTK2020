@@ -23,8 +23,15 @@ if (instance_exists(o_Dog))
 		
 		if (!place_meeting(x+DogMoveX,y,o_LesserWall))
 		x += DogMoveX;
+		else
+		y+= SlipperySpeed;
+
+		
 		if (!place_meeting(x,y+DogMoveY,o_LesserWall))
 		y += DogMoveY;
+		else
+		x+= SlipperySpeed;
+
 	}
 }
 

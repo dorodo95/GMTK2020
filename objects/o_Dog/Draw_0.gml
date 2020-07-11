@@ -1,3 +1,9 @@
+//Collar
+if (!(DogState=="Sitted"))
+{
+	draw_line_width(x,y,o_Player.x,o_Player.y,2);
+}
+
 draw_self();
 draw_set_font(f_PixelNarrative);
 if (instance_exists(o_Controller))
@@ -9,6 +15,7 @@ if (instance_exists(o_Controller))
 
 if (PetTheDog==true && DogState=="Sitted")
 draw_text(x-70,y-20,"Left Click to Start the Wave");
+
 
 
 if (array_length_1d(o_WavesAI.SpawnNumberWave)<o_WavesAI.WaveNumber)

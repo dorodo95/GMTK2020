@@ -10,6 +10,8 @@ FiringDelay=0;
 FiringDelayValue=15;
 DistanceForBulletSpawn=5;
 
+SlipperySpeed=1;
+
 for (var i = 0; i <= 7; i += 1)
 {
 	with (instance_create_layer(x,y,"Instances",o_Area))

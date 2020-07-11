@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3814b406-af67-4d6b-bc0f-1c709438bab0",
+            "Value": {
+                "id": "160373f4-01d2-4a39-bc9b-72919345a6aa",
+                "resourcePath": "sprites\\s_Rope\\s_Rope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3bdba963-4768-4086-85ca-7f5a37abf927",
             "Value": {
                 "id": "3929fa52-06cc-41cf-9328-4af783566724",
@@ -388,6 +396,14 @@
                 "id": "69026113-5300-426a-aaf4-e657c4e9342f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d070f798-3e43-468d-818f-e83412dc2a42",
+            "Value": {
+                "id": "6bbd7130-0467-4018-b597-8dc9125af4a2",
+                "resourcePath": "sprites\\s_RopeHolder\\s_RopeHolder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
