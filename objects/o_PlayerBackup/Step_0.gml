@@ -2,6 +2,9 @@ hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 MouseClick = mouse_check_button(mb_left);
 
+
+part_particles_create(mySystem,x,y+30,myParticle,1);
+
 if (hInput !=0 || vInput !=0){
 	Direction = point_direction(0,0,hInput, vInput);
 	
@@ -33,13 +36,19 @@ if (instance_exists(o_Dog))
 		DogMoveY= lengthdir_y(DogSpeed, o_Dog.DogDirection)
 		
 		if (!place_meeting(x+DogMoveX,y,o_LesserWall))
-		x += DogMoveX;
+		{
+			part_particles_create(mySystem,x,y+30,myParticle,1);
+			x += DogMoveX;
+		}
 		else
 		y+= SlipperySpeed;
 
 		
 		if (!place_meeting(x,y+DogMoveY,o_LesserWall))
-		y += DogMoveY;
+		{
+			part_particles_create(mySystem,x,y+30,myParticle,1);
+			y += DogMoveY;
+		}
 		else
 		x+= SlipperySpeed;
 

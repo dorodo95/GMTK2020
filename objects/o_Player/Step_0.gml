@@ -37,13 +37,19 @@ if (instance_exists(o_Dog))
 			DogMoveY= lengthdir_y(DogInstance.DogSpeedDraggingForceCalculated, DogInstance.DogDirection)
 		
 			if (!place_meeting(x+DogMoveX,y,o_LesserWall))
-			x += DogMoveX/instance_number(o_Dog);
+			{
+				part_particles_create(mySystem,x+irandom_range(-5,5),y+5,myParticle,1);
+				x += DogMoveX/instance_number(o_Dog);
+			}
 			else
 			y+= SlipperySpeed/instance_number(o_Dog);
 
 		
 			if (!place_meeting(x,y+DogMoveY,o_LesserWall))
-			y += DogMoveY/instance_number(o_Dog);
+			{
+				part_particles_create(mySystem,x+irandom_range(-5,5),y+5,myParticle,1);
+				y += DogMoveY/instance_number(o_Dog);
+			}
 			else
 			x+= SlipperySpeed/instance_number(o_Dog);
 		}
@@ -60,7 +66,7 @@ if (MouseClick==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
 	var _xx = x + lengthdir_x(DistanceForBulletSpawn, image_angle);
 	var _yy = y + lengthdir_y(DistanceForBulletSpawn, image_angle);
 
-	with (instance_create_layer(_xx,_yy,"Instances",o_Bullet))
+	with (instance_create_layer(_xx,_yy,"Bullets",o_Bullet))
 	{
 		speed = other.BulletSpeed;
 		direction = other.image_angle + random_range(-other.BulletSpread,other.BulletSpread);
