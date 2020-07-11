@@ -7,8 +7,10 @@ if (hInput !=0 || vInput !=0){
 
 	MoveX= lengthdir_x(WalkSpeed, Direction)
 	MoveY= lengthdir_y(WalkSpeed, Direction)
-
+	
+	if (!place_meeting(x+MoveX,y,o_LesserWall))
 	x += MoveX;
+	if (!place_meeting(x,y+MoveY,o_LesserWall))
 	y += MoveY;
 }
 
@@ -18,8 +20,10 @@ if (instance_exists(o_Dog))
 
 		DogMoveX= lengthdir_x(DogSpeed, o_Dog.DogDirection)
 		DogMoveY= lengthdir_y(DogSpeed, o_Dog.DogDirection)
-
+		
+		if (!place_meeting(x+DogMoveX,y,o_LesserWall))
 		x += DogMoveX;
+		if (!place_meeting(x,y+DogMoveY,o_LesserWall))
 		y += DogMoveY;
 	}
 }
