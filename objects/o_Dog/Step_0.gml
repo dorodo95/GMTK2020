@@ -1,3 +1,12 @@
+if (instance_exists(o_WavesAI))
+{
+	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true)
+	{
+		DogState="Sitted";
+	}
+}
+
+
 //WallCollision
 if (place_meeting(x,y,o_Wall) && GetAwayFromWall==true)
 {
@@ -91,7 +100,18 @@ if (DogState=="Dragging")
 	}
 }
 
-
+if (DogState=="Sitted")
+{
+	speed=0;
+	FoundArea=false;
+	if (PetTheDog==true && o_Player.MouseClick==true)
+	{
+		o_WavesAI.ChangeWave=true;
+		o_WavesAI.WaveFinished=false;
+		DogState="";
+		FindAnotherPosition=true;
+	}
+}
 
 
 if (FoundArea==true && !position_meeting(x,y,AreaToFollow))
@@ -111,5 +131,18 @@ if (FindAnotherPosition==true)
 
 
 
+
+
+if (DogState=="Sitted" && point_distance(x,y,o_Player.x,o_Player.y)<DinstanceToPet)
+PetTheDog=true;
+else
+PetTheDog=false;
+
+
+//Mirror Image
+if (o_Player.x>x)
+image_xscale=1;
+else
+image_xscale=-1;
 
 

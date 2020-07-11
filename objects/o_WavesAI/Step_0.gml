@@ -7,18 +7,24 @@ if (instance_exists(o_Controller))
 	
 }
 
-
-
-if (WaveNumber==1)
+if (ChangeWave==true)
 {
-	if (alarm[0]<=0 && SpawnNumberWave1>=0)
+	WaveNumber++;
+	ChangeWave=false;
+}
+
+
+if (WaveNumber>0 && array_length_1d(SpawnNumberWave)>=WaveNumber )
+{
+	if (SpawnNumberWave[WaveNumber-1]<=0 && alarm[0]<=0)
 	{
-		alarm[0]=SpawnCadenceWave1;
-		SpawnNumberWave1--;
+		WaveFinished=true;
 	}
-	else if (SpawnNumberWave1<=0)
+	else if (alarm[0]<=0 && SpawnNumberWave[WaveNumber-1]>0)
 	{
-		WaveNumber=2;
+		WaveFinished=false;
+		alarm[0]=SpawnCadenceWave[WaveNumber-1];
+		SpawnNumberWave[WaveNumber-1]--;
 	}
 }
 

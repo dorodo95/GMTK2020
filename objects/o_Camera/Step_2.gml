@@ -14,3 +14,4 @@ if (instance_exists(o_Player))
 	var _speed = CameraLerpSpeed;
 	camera_set_view_pos(view,lerp(_cur_x,_x,_speed),lerp(_cur_y,_y,_speed));
 }
+

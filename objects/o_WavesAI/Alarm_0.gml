@@ -14,3 +14,4 @@ while (DistanceBetweenPlayerAndSpawner<=200)
 
 
 instance_create_layer(InstanceChoose.x,InstanceChoose.y,"Instances",o_Enemy01);
+

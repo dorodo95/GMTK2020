@@ -32,7 +32,7 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 
 
-if (MouseClick==true && FiringDelay<=0)
+if (MouseClick==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
 {
 	FiringDelay=FiringDelayValue;
 	var _xx = x + lengthdir_x(DistanceForBulletSpawn, image_angle);

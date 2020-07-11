@@ -4,9 +4,10 @@ ForcePositionTest=false;
 FindAnotherPosition=false;
 o_Area.image_index=0;
 
-
-while(AreaToFollow.AreaNumber==DogAreaDirection)
+if (AreaToFollow!=0)
 {
-	DogAreaDirection=irandom_range(0,7);
+	while(AreaToFollow.AreaNumber==DogAreaDirection)
+	{
+		DogAreaDirection=irandom_range(0,7);
+	}
 }
-

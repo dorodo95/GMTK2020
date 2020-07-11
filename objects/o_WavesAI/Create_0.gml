@@ -1,8 +1,19 @@
-WaveNumber=1;
+WaveNumber=0;
 
-SpawnNumberWave1=10;
-SpawnCadenceWave1=50;
+SpawnNumberWave[0]=10;
+SpawnCadenceWave[0]=50;
+
+SpawnNumberWave[1]=20;
+SpawnCadenceWave[1]=50;
+
+
+SpawnCurrentWave=0;
+
 
 InstanceChoose=0;
 
 DistanceBetweenPlayerAndSpawner=0;
+
+ChangeWave=false;
+
+WaveFinished=false;

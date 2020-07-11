@@ -1,9 +1,9 @@
 //DogDirection=600 == Stopped/NoForce
 DogDirection=600;
-DogAreaDirection=0;
+DogAreaDirection=irandom_range(0,7);
 
 //There are 3 states: Walking, Dragging and Sitted
-DogState="Walking";
+DogState="Sitted";
 
 FoundArea=false;
 
@@ -17,3 +17,10 @@ ForcePositionTest=false;
 GetAwayFromWall=false;
 
 FindAnotherPosition=false;
+
+DinstanceToPet=30;
+
+PetTheDog=false;
+
+
+BulletsDogReceived=0;
