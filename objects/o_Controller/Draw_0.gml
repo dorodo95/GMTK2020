@@ -1,4 +1,7 @@
 draw_set_font(f_PixelNarrative);
+draw_set_halign(fa_left);
+draw_set_color(c_white);
+
 //Debug
 if (global.DebugOn==true)
 {

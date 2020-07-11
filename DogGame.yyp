@@ -367,11 +367,27 @@
             }
         },
         {
+            "Key": "a9004a71-96ed-4d29-9971-6066d9197326",
+            "Value": {
+                "id": "86bf6105-ead3-47ca-80b5-9609669850d1",
+                "resourcePath": "objects\\o_WaveStarter\\o_WaveStarter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "e248f0d8-5c72-41c4-8f7f-cdcc91273425",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aac6afb3-70ca-4488-8c12-b420654e1c76",
+            "Value": {
+                "id": "ac92440a-a64d-43ad-92cf-97425b4197b0",
+                "resourcePath": "sprites\\s_Hearts\\s_Hearts.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,6 +468,14 @@
                 "id": "9ffce3fe-b020-4d75-9b50-766e23c76d46",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e57b955f-66a4-45fb-9d0a-debfa8237a1a",
+            "Value": {
+                "id": "f89e0607-1d9d-480a-8097-3af19782912a",
+                "resourcePath": "sprites\\s_WaveStarter\\s_WaveStarter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

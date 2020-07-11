@@ -106,13 +106,15 @@ if (DogState=="Sitted")
 	FoundArea=false;
 	if (PetTheDog==true && o_Player.MouseClick==true)
 	{
-		o_WavesAI.ChangeWave=true;
-		o_WavesAI.WaveFinished=false;
-		DogState="";
-		FindAnotherPosition=true;
+		DogState="PetTheDogHappening";
+		o_WaveStarter.alarm[0]=o_WaveStarter.TimeForAlarm0;
 	}
 }
 
+if (DogState=="PetTheDogHappening")
+{
+	part_particles_create(mySystem,x+irandom_range(-RangeToSpawnParticle,RangeToSpawnParticle),y+irandom_range(-RangeToSpawnParticle,RangeToSpawnParticle),myParticle,1);
+}
 
 if (FoundArea==true && !position_meeting(x,y,AreaToFollow))
 {
