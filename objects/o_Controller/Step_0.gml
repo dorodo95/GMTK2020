@@ -12,3 +12,10 @@ if (KeyDebug)
 
 if (KeyReset)
 room_restart();
+
+
+if (global.DebugOn==true)
+visible=true;
+else
+visible=false;
+	
