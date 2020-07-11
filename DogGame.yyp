@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "4cc23eb8-b431-4ae4-a265-aeef640bfc7b",
+            "Value": {
+                "id": "119c1a57-7721-4a73-bd89-d806bfb30531",
+                "resourcePath": "objects\\o_PlayerBackup\\o_PlayerBackup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4eaa50c4-c41a-4343-a402-b9825a63bfa5",
             "Value": {
                 "id": "c5ad7866-61fa-4cb7-a2cf-253593cd2570",

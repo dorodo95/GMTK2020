@@ -1,6 +1,7 @@
 WalkSpeedDragging=1;
 WalkSpeed=2;
 Direction=0;
+DogSpeed=2;
 AreaList=ds_list_create();
 
 
@@ -22,4 +23,3 @@ for (var i = 0; i <= 7; i += 1)
 }
 
 alarm[0]=20;
-

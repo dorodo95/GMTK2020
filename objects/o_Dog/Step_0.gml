@@ -53,7 +53,7 @@ if (DogState="Walking")
 if (DogState=="Dragging")
 {
 	if (alarm[0]<=0)
-	alarm[0]=100;
+	alarm[0]=TimeToChangePosition;
 	
 	if (ForcePositionTest==false)
 	{

@@ -27,26 +27,22 @@ if (hInput !=0 || vInput !=0){
 
 if (instance_exists(o_Dog))
 {
-	for (var i = 0; i < instance_number(o_Dog); i += 1)
-    {
-		var DogInstance=instance_find(o_Dog, i);
-		if (DogInstance.DogState=="Dragging" && DogInstance.DogDirection!=600)
-		{
+	if (o_Dog.DogState=="Dragging" && o_Dog.DogDirection!=600){
 
-			DogMoveX= lengthdir_x(DogInstance.DogSpeedDraggingForceCalculated, DogInstance.DogDirection)
-			DogMoveY= lengthdir_y(DogInstance.DogSpeedDraggingForceCalculated, DogInstance.DogDirection)
+		DogMoveX= lengthdir_x(DogSpeed, o_Dog.DogDirection)
+		DogMoveY= lengthdir_y(DogSpeed, o_Dog.DogDirection)
 		
-			if (!place_meeting(x+DogMoveX,y,o_LesserWall))
-			x += DogMoveX/instance_number(o_Dog);
-			else
-			y+= SlipperySpeed/instance_number(o_Dog);
+		if (!place_meeting(x+DogMoveX,y,o_LesserWall))
+		x += DogMoveX;
+		else
+		y+= SlipperySpeed;
 
 		
-			if (!place_meeting(x,y+DogMoveY,o_LesserWall))
-			y += DogMoveY/instance_number(o_Dog);
-			else
-			x+= SlipperySpeed/instance_number(o_Dog);
-		}
+		if (!place_meeting(x,y+DogMoveY,o_LesserWall))
+		y += DogMoveY;
+		else
+		x+= SlipperySpeed;
+
 	}
 }
 

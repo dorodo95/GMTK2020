@@ -10,7 +10,10 @@ FoundArea=false;
 AreaToFollow=0;
 
 WalkingSpeed=2;
+DogSpeedDraggingForce=WalkingSpeed;
 
+
+DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging
 
 
 ForcePositionTest=false;
@@ -24,3 +27,7 @@ PetTheDog=false;
 
 
 BulletsDogReceived=0;
+
+TimeToChangePosition=400;
+
+
