@@ -143,11 +143,27 @@
             }
         },
         {
+            "Key": "8762888b-885b-43c6-b21c-c894b5c2b24d",
+            "Value": {
+                "id": "19c4bf19-1cb6-4984-ad1e-ff325755487c",
+                "resourcePath": "objects\\o_Bullet\\o_Bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c43f73c-d608-4dd8-a05f-78fc233c50e8",
             "Value": {
                 "id": "e7c1197a-5619-4330-bb4b-0897851a7e1f",
                 "resourcePath": "fonts\\f_PixelNarrative\\f_PixelNarrative.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8fe6d92e-5ef8-48fd-9e84-fe281f742f44",
+            "Value": {
+                "id": "edce754e-2bc2-45a8-b596-9d50ac48014d",
+                "resourcePath": "sprites\\s_Bullet\\s_Bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
