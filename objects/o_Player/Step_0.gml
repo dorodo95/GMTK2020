@@ -11,14 +11,14 @@ if (hInput !=0 || vInput !=0){
 	y += MoveY;
 }
 
-//if (instance_exists(o_Dog))
-//{
-//	if (o_Dog.DogPosition!="None"){
+if (instance_exists(o_Dog))
+{
+	if (o_Dog.DogState=="Dragging" && o_Dog.DogDirection!=600){
 
-//		DogMoveX= lengthdir_x(DogSpeed, o_Dog.DogDirection)
-//		DogMoveY= lengthdir_y(DogSpeed, o_Dog.DogDirection)
+		DogMoveX= lengthdir_x(DogSpeed, o_Dog.DogDirection)
+		DogMoveY= lengthdir_y(DogSpeed, o_Dog.DogDirection)
 
-//		x += DogMoveX;
-//		y += DogMoveY;
-//	}
-//}
+		x += DogMoveX;
+		y += DogMoveY;
+	}
+}

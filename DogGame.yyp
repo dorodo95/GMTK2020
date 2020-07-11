@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "8c43f73c-d608-4dd8-a05f-78fc233c50e8",
+            "Value": {
+                "id": "e7c1197a-5619-4330-bb4b-0897851a7e1f",
+                "resourcePath": "fonts\\f_PixelNarrative\\f_PixelNarrative.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "fc77740e-46d6-4550-b619-0af6c62d67b3",

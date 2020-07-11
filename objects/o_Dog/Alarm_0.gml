@@ -1,9 +1,10 @@
 DogState="Walking"
 FoundArea=false;
-var AreaAlarm=instance_position( x, y, o_Area);
+ForcePositionTest=false;
 
-while(AreaAlarm.AreaNumber==DogDirection)
+
+while(AreaToFollow.AreaNumber==DogAreaDirection)
 {
-	DogDirection=irandom_range(0,7);
+	DogAreaDirection=irandom_range(0,7);
 }
 

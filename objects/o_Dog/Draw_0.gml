@@ -1,3 +1,3 @@
 draw_self();
-draw_text(30,30,string(DogState));
-draw_text(30,60,string(DogDirection));
+draw_set_font(f_PixelNarrative);
+draw_text(30,90,string(DogState));

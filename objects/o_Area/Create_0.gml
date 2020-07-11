@@ -1,7 +1,7 @@
 AreaNumber=0;
 AreaAccessible=false;
 
-PlayerXDistance=100;
-PlayerYDistance=100;
+PlayerXDistance=50;
+PlayerYDistance=50;
 
 image_speed=0;
