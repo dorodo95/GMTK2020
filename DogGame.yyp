@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "bbdb71ce-d88a-45af-a3b9-513a9572e488",
+            "Value": {
+                "id": "a983164d-8e7c-4670-94d3-a496b5d07fa0",
+                "resourcePath": "sprites\\s_Dog\\s_Dog.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "69026113-5300-426a-aaf4-e657c4e9342f",
@@ -306,7 +314,7 @@
             "Key": "ff7e163c-fc70-4b80-8da4-c2affad2ff30",
             "Value": {
                 "id": "6ce83858-d04a-47c1-ad4d-7c55e1705205",
-                "resourcePath": "sprites\\s_Dog\\s_Dog.yy",
+                "resourcePath": "sprites\\s_Dummy\\s_Dummy.yy",
                 "resourceType": "GMSprite"
             }
         }
