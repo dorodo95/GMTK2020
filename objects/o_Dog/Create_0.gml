@@ -9,7 +9,7 @@ FoundArea=false;
 
 AreaToFollow=0;
 
-WalkingSpeed=2;
+WalkingSpeed=3;
 DogSpeedDraggingForce=WalkingSpeed;
 
 

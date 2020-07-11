@@ -1,4 +1,4 @@
-WalkSpeedDragging=1;
+WalkSpeedDragging=2;
 WalkSpeed=2;
 Direction=0;
 AreaList=ds_list_create();

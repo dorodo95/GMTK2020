@@ -1,10 +1,16 @@
 x = o_Player.x;
 y = o_Player.y;
 
-image_angle = o_Dog.DogDirection+180;
+if (o_Dog.DogState=="Dragging" || o_Dog.DogState=="Walking" )
+image_angle = point_direction(x, y, o_Dog.x, o_Dog.y)+180;
+else
+{
+	if (o_Player.MoveX>0)
+	image_angle=0;
+	else
+	image_angle=180;
+}
 
-
-//image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 
 with (o_Player)
