@@ -1,5 +1,5 @@
 KeyDebug=keyboard_check_pressed(vk_f1);
-
+KeyReset=keyboard_check_pressed(ord("R"));
 
 
 if (KeyDebug)
@@ -9,3 +9,6 @@ if (KeyDebug)
 	else
 	global.DebugOn=false;
 }
+
+if (KeyReset)
+room_restart();
