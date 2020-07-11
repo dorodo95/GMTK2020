@@ -1,2 +1,2 @@
 HP=3;
-Speed=0.5;
+Speed=0.5

@@ -1,5 +1,5 @@
 {
-    "id": "2196d98d-b52d-4884-995b-0e6a8f795c0d",
+    "id": "0f1d1b29-d53a-4854-8f8c-d8b43967b3ba",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_Enemy01Corpse",
