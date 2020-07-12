@@ -3,6 +3,8 @@ if (instance_exists(o_WavesAI))
 	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true && DogState!="PetTheDogHappening" && DogState!="Sitted")
 	{
 		DogState="Sitted";
+		alarm[4]=100;
+		CantInteractYet=true;
 	}
 }
 
@@ -117,7 +119,7 @@ if (DogState=="Sitted")
 	speed=0;
 	FoundArea=false;
 	sprite_index=s_Dog;
-	if (PetTheDog==true && o_Player.Input1Pressed==true)
+	if (PetTheDog==true && o_Player.Input1Pressed==true && CantInteractYet==false)
 	{
 		alarm[0]=0;
 		if (o_WavesAI.WaveNumber<=4)

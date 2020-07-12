@@ -25,7 +25,7 @@ if (instance_exists(o_Controller))
 	
 }
 
-if (PetTheDog==true && DogState=="Sitted")
+if (PetTheDog==true && DogState=="Sitted" && CantInteractYet==false)
 draw_text(x,y-20,"Press X to pet your lovely dog");
 
 

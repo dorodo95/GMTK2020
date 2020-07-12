@@ -1,6 +1,6 @@
-hInput= keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-Input1Pressed = keyboard_check(ord("X"));
+hInput= ((keyboard_check(vk_right) || keyboard_check(ord("D"))) - (keyboard_check(vk_left) || keyboard_check(ord("A"))));
+vInput = ((keyboard_check(vk_down) || keyboard_check(ord("S"))) - (keyboard_check(vk_up) || keyboard_check(ord("W"))));
+Input1Pressed = (keyboard_check(ord("X")) || keyboard_check(vk_space));
 CtrlKeyPressed = keyboard_check_pressed(vk_control);
 
 if (CtrlKeyPressed)

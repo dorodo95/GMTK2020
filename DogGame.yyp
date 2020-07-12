@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "309399b6-4238-49fc-b7ac-ea5b37431f8f",
+            "Value": {
+                "id": "f53677b9-6abb-4439-8aeb-15086305ef46",
+                "resourcePath": "sounds\\s_ActionSong\\s_ActionSong.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "312b6c07-84a9-4856-89ea-bdaab7f4d9c4",
             "Value": {
                 "id": "e9cf27d2-2ea2-4841-b485-e6c1cd604edd",
