@@ -25,7 +25,10 @@ if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 	
 }
 else
-sprite_index=s_Player;
+{
+	if (o_Dog.DogState!="PetTheDogHappening")
+	sprite_index=s_Player;
+}
 
 if (instance_exists(o_Dog))
 {
@@ -75,4 +78,16 @@ if (!instance_exists(o_Weapon))
 {
 	if (o_Dog.DogState=="Walking")
 	instance_create_layer(x,y,"Weapon",o_Weapon);
+}
+
+
+
+
+//StopPetting
+if (sprite_index==s_PlayerPetDog)
+{
+	if (image_index > image_number - 1)
+	{
+		sprite_index=s_Player;
+	}
 }

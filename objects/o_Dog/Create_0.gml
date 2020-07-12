@@ -5,11 +5,16 @@ DogAreaDirection=irandom_range(0,7);
 //There are 3 states: Walking, Dragging and Sitted
 DogState="Sitted";
 
+
+
+
+
+
 FoundArea=false;
 
 AreaToFollow=0;
 
-WalkingSpeed=3;
+WalkingSpeed=2.7;
 DogSpeedDraggingForce=WalkingSpeed;
 
 

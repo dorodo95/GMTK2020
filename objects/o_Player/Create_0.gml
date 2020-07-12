@@ -1,5 +1,5 @@
-WalkSpeedDragging=1.5;
-WalkSpeed=1.5;
+WalkSpeedDragging=1.3;
+WalkSpeed=1.3;
 Direction=0;
 AreaList=ds_list_create();
 
@@ -39,7 +39,8 @@ part_system_depth(myParticle,401);
 
 
 
-
+DogMoveX=0;
+DogMoveY=0;
 MoveX=0;
 MoveY=0;
 

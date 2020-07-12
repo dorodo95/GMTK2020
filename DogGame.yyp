@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "fc581add-f55f-4e4d-abef-3ae59ecb2976",
+            "Value": {
+                "id": "3ee996cf-dabd-4ede-9476-459d6a376e03",
+                "resourcePath": "sprites\\s_PlayerPetDog\\s_PlayerPetDog.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fccc5dff-8ae8-425f-8f10-259392fc95b4",
             "Value": {
                 "id": "5873f636-26fc-4499-a264-a4e85192ebde",

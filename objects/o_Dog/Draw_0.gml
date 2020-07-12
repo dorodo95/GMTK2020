@@ -2,7 +2,6 @@ draw_set_font(f_PixelNarrative);
 draw_set_halign(fa_center);
 draw_set_color(c_white);
 
-
 //Collar
 if (!(DogState=="Sitted"))
 {

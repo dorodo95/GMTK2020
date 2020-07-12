@@ -13,5 +13,8 @@ while (DistanceBetweenPlayerAndSpawner<=200)
 }
 
 
-instance_create_layer(InstanceChoose.x,InstanceChoose.y,"Instances",o_Enemy01);
+with(instance_create_layer(InstanceChoose.x,InstanceChoose.y,"Instances",o_Enemy01))
+{
+	Speed=other.EnemySpeed[other.WaveNumber-1];
+}
 
