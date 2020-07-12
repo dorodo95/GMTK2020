@@ -14,11 +14,11 @@ FoundArea=false;
 
 AreaToFollow=0;
 
-WalkingSpeed=2.7;
+WalkingSpeed=1.5;
 DogSpeedDraggingForce=WalkingSpeed;
 
 
-DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging
+DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;
 
 
 ForcePositionTest=false;

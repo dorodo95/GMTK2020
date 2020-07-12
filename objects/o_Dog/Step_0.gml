@@ -107,6 +107,18 @@ if (DogState=="Sitted")
 	if (PetTheDog==true && o_Player.Input1Pressed==true)
 	{
 		alarm[0]=0;
+		if (o_WavesAI.WaveNumber<=4)
+		{
+			WalkingSpeed+=0.3;
+			DogSpeedDraggingForce=WalkingSpeed;
+			DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;
+		}
+		else if (o_WavesAI.WaveNumber>4)
+		{
+			WalkingSpeed+=0.2;
+			DogSpeedDraggingForce=WalkingSpeed;
+			DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;			
+		}
 		DogState="PetTheDogHappening";
 		audio_play_sound(s_PatDog,0,0);
 		o_Player.x=x+9;

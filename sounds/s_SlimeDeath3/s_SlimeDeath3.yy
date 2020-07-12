@@ -1,8 +1,8 @@
 {
-    "id": "ba09cfba-86e1-41c3-95f3-8a7800f7db05",
+    "id": "bdd73bd9-558b-4fdf-9f57-ced5a191ed8a",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "s_AmbienceSound",
+    "name": "s_SlimeDeath3",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
