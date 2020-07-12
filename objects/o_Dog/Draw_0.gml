@@ -19,7 +19,7 @@ if (instance_exists(o_Controller))
 }
 
 if (PetTheDog==true && DogState=="Sitted")
-draw_text(x,y-20,"Left Click to Start the Wave");
+draw_text(x,y-20,"Press X to pet your lovely dog");
 
 
 

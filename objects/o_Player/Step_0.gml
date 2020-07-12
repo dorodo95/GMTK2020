@@ -1,6 +1,6 @@
-hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
-vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-SpacePressed = keyboard_check(vk_space);
+hInput= keyboard_check(vk_right) - keyboard_check(vk_left);
+vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+Input1Pressed = keyboard_check(ord("X"));
 
 if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 	Direction = point_direction(0,0,hInput, vInput);

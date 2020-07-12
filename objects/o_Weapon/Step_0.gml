@@ -15,12 +15,12 @@ else
 
 with (o_Player)
 {
-	if (SpacePressed==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
+	if (Input1Pressed==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
 	{
 		FiringDelay=FiringDelayValue;
 		var _xx = x + lengthdir_x(DistanceForBulletSpawn, other.image_angle);
 		var _yy = y + lengthdir_y(DistanceForBulletSpawn, other.image_angle);
-
+		o_Camera.ScreenShakeOn=true;
 		with (instance_create_layer(_xx,_yy,"Bullets",o_Bullet))
 		{
 			speed = o_Player.BulletSpeed;

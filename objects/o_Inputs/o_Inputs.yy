@@ -1,28 +1,18 @@
 {
-    "id": "ac1d938d-6dc9-4f68-8579-c923e5cec595",
+    "id": "aabafe5f-d314-49c3-9956-f93fc4e3707b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_SoundController",
+    "name": "o_Inputs",
     "eventList": [
         {
-            "id": "e2bb46c5-d9cf-48bd-9ffe-103c03e94fea",
+            "id": "68bdd6f7-a1dd-49a4-9f5f-fe8649576328",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ac1d938d-6dc9-4f68-8579-c923e5cec595"
-        },
-        {
-            "id": "d6d23226-a515-4a17-9840-a8b9fe01c549",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ac1d938d-6dc9-4f68-8579-c923e5cec595"
+            "eventtype": 8,
+            "m_owner": "aabafe5f-d314-49c3-9956-f93fc4e3707b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f8b27627-3b49-4dd2-bd55-02efbf449e8a",
-    "visible": false
+    "spriteId": "98e5d776-266b-4969-af07-02bd5ddce868",
+    "visible": true
 }

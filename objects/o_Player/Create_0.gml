@@ -4,10 +4,10 @@ Direction=0;
 AreaList=ds_list_create();
 
 
-BulletSpeed=5;
+BulletSpeed=7;
 BulletSpread=1;
 FiringDelay=0;
-FiringDelayValue=15;
+FiringDelayValue=8;
 DistanceForBulletSpawn=5;
 
 SlipperySpeed=1;

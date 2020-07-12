@@ -11,3 +11,10 @@ surface_resize(application_surface,view_width*window_scale,view_height*window_sc
 
 CameraLerpSpeed=0.1;
 
+
+
+ScreenShakeOn=false;
+ShakeStrongness=2;
+ScreenShakeTime=10;
+
+
