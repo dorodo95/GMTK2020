@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "801c18e3-a955-4e37-ba6d-7c5047313c30",
+            "Value": {
+                "id": "d179577d-a883-4af3-95c1-809c25ec9aa3",
+                "resourcePath": "sounds\\s_VictorySound\\s_VictorySound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "824be175-d029-4b4e-922e-93789e54646a",
             "Value": {
                 "id": "bccd27c5-6bd5-4e8d-8246-99f0ede6e089",
@@ -767,14 +775,6 @@
             }
         },
         {
-            "Key": "9cf2b607-383a-4ecb-afb5-2c539691acfa",
-            "Value": {
-                "id": "d0e66ef5-45b6-49ed-88ed-6bbb464d5e32",
-                "resourcePath": "sprites\\sprite29\\sprite29.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9d308f01-344a-4fff-a14a-35a6713c2b12",
             "Value": {
                 "id": "016b6dc3-1500-458b-a5da-0c818c190613",
@@ -804,6 +804,14 @@
                 "id": "43eec79b-d949-4489-80d8-82228e855274",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a19dd9ab-0713-4f28-a94b-bcbb12cca9d7",
+            "Value": {
+                "id": "1c3b731d-4275-430b-b48f-2bc41f7b8ecd",
+                "resourcePath": "sounds\\s_GameOver\\s_GameOver.yy",
+                "resourceType": "GMSound"
             }
         },
         {

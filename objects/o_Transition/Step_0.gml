@@ -10,9 +10,19 @@ if (Y1>=0 && OneTrigger==false)
 	CanKeepGoing=false;
 	alarm[0]=10;
 	OneTrigger=true;
+	if (instance_exists(o_Weapon))
+	part_particles_clear(o_Weapon.mySystem);
+
+	if (audio_is_playing(s_ActionSong))
+	audio_stop_sound(s_ActionSong);
+	
 }
 
 
 if (Y1>500)
-instance_destroy();
+{
+	audio_play_sound(s_GameOver,0,0);
+	instance_destroy();
+}
+
 

@@ -2,8 +2,13 @@ if (instance_exists(o_WavesAI))
 {
 	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true && DogState!="PetTheDogHappening" && DogState!="Sitted")
 	{
+		if (VictorySound==true)
+		{
+			VictorySound=false;
+			audio_play_sound(s_VictorySound,0,0);
+		}
 		DogState="Sitted";
-		alarm[4]=100;
+		alarm[4]=70;
 		CantInteractYet=true;
 	}
 }
@@ -136,7 +141,7 @@ if (DogState=="Sitted")
 		}
 		DogState="PetTheDogHappening";
 		audio_play_sound(s_PatDog,0,0);
-		
+		VictorySound=true;
 		o_Player.x=x+9;
 		o_Player.y=y-3;
 		o_Player.sprite_index=s_PlayerPetDog;

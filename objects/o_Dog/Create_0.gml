@@ -54,6 +54,8 @@ RangeToSpawnParticle=20;
 
 CantInteractYet=false;
 
+VictorySound=true;
+
 
 
 

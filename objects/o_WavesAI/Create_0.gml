@@ -1,10 +1,10 @@
 WaveNumber=0;
 
-SpawnNumberWave[0]=5;
+SpawnNumberWave[0]=1;
 SpawnCadenceWave[0]=50;
 EnemySpeed[0]=0.3;
 
-SpawnNumberWave[1]=7;
+SpawnNumberWave[1]=1;
 SpawnCadenceWave[1]=40;
 EnemySpeed[1]=0.35;
 

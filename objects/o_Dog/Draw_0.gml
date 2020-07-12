@@ -1,6 +1,6 @@
 draw_set_font(f_PixelNarrative);
 draw_set_halign(fa_center);
-draw_set_color(c_white);
+draw_set_color(make_color_rgb(247,194,100));
 
 //Collar
 if (!(DogState=="Sitted"))
@@ -8,6 +8,8 @@ if (!(DogState=="Sitted"))
 	draw_line_width(x,y,o_Player.x,o_Player.y+5,2);
 }
 
+
+draw_set_color(c_white);
 if (!isHit)
 draw_self();
 

@@ -11,5 +11,3 @@ OneTrigger=false;
 
 RoomNumber=0;
 
-if (instance_exists(o_Weapon))
-part_particles_clear(o_Weapon.mySystem);

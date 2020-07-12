@@ -81,12 +81,13 @@ else
 image_xscale=-1;
 
 
-if (HP<=0)
+if (HP<=0 && TransitionOnlyOne==false)
 {
 	global.LastWave=o_WavesAI.WaveNumber;
 	{
 		with (instance_create_layer(x,y,"UI",o_Transition))
 		RoomNumber=1;
+		TransitionOnlyOne=true;
 	}
 }
 

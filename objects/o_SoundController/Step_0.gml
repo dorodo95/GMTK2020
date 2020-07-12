@@ -2,14 +2,19 @@ VolumeKey=keyboard_check_pressed(ord("V"))
 
 if (o_Dog.DogState=="Sitted")
 {
+	if (audio_is_playing(s_VictorySound))
+	audio_stop_sound(s_MainThemeCalm);
+	
 	if (audio_is_playing(s_ActionSong))
 	audio_stop_sound(s_ActionSong);
 	
-	if (!audio_is_playing(s_MainThemeCalm))
+	if (!audio_is_playing(s_MainThemeCalm) && !audio_is_playing(s_VictorySound))
 	audio_play_sound(s_MainThemeCalm,0,1);
 	
-	if (!audio_is_playing(s_AmbienceSound))
+	if (!audio_is_playing(s_AmbienceSound) )
 	audio_play_sound(s_AmbienceSound,0,1);
+	
+	
 }
 
 else if (o_Dog.DogState=="Walking")
