@@ -1,4 +1,4 @@
-alarm[0]=15;
+alarm[0]=20;
 
 CircleSize=2;
-CircleSizeAcceleration=15;
+CircleSizeAcceleration=5;

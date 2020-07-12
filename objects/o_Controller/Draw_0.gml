@@ -6,7 +6,6 @@ draw_set_color(c_white);
 if (global.DebugOn==true)
 {
 	draw_text(camera_get_view_x(view)+5,camera_get_view_y(view)+20,"DEBUG ON");
-	draw_text(camera_get_view_x(view)+5,camera_get_view_y(view)+40,"Enemies Alive: " + string(instance_number(o_Enemy01)));
 }
 
 if (instance_exists(o_WavesAI))
@@ -17,6 +16,8 @@ if (instance_exists(o_WavesAI))
 	}
 }
 
+if (instance_number(o_Enemy01)<4 && instance_number(o_Enemy01)>0 && o_WavesAI.WaveFinished==true)
+draw_text(camera_get_view_x(view)+5,camera_get_view_y(view)+15,"Enemies Remaining: " + string(instance_number(o_Enemy01)));
 
 
 

@@ -48,6 +48,12 @@ if (DogState="Walking")
 		AreaToFollow.image_index=0;
 		speed=0;
 	}
+	//FootstepSound
+	if (alarm[2]<=0)
+	{
+		audio_play_sound(choose(s_Footstep1,s_Footstep2,s_Footstep3,s_Footstep4,s_Footstep5,s_Footstep6,s_Footstep7,s_Footstep8),0,0);
+		alarm[2]=FootStepSpeed;
+	}
 }
 
 if (DogState=="Dragging")
@@ -98,12 +104,19 @@ if (DogState=="Dragging")
 			ForcePositionTest=true;
 		}
 	}
+	//FootstepSound
+	if (alarm[2]<=0)
+	{
+		audio_play_sound(choose(s_Footstep1,s_Footstep2,s_Footstep3,s_Footstep4,s_Footstep5,s_Footstep6,s_Footstep7,s_Footstep8),0,0);
+		alarm[2]=FootStepSpeed;
+	}
 }
 
 if (DogState=="Sitted")
 {
 	speed=0;
 	FoundArea=false;
+	sprite_index=s_Dog;
 	if (PetTheDog==true && o_Player.Input1Pressed==true)
 	{
 		alarm[0]=0;
@@ -165,3 +178,7 @@ else
 image_xscale=-1;
 
 
+FootStepSpeed=15-WalkingSpeed;
+AnimationSpeed=WalkingSpeed;
+
+image_speed=AnimationSpeed;

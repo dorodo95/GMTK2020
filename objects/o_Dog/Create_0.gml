@@ -17,6 +17,8 @@ AreaToFollow=0;
 WalkingSpeed=1.5;
 DogSpeedDraggingForce=WalkingSpeed;
 
+FootStepSpeed=15-WalkingSpeed;
+AnimationSpeed=WalkingSpeed;
 
 DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;
 

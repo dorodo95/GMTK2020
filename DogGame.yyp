@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04a3dd34-ff1d-4de4-868b-af26af1140a0",
+            "Value": {
+                "id": "288559dc-ab5e-480b-b8e4-e8a4a4877fb2",
+                "resourcePath": "sprites\\s_BulletDust\\s_BulletDust.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04de6859-f266-4db1-a0bd-131951e71b40",
             "Value": {
                 "id": "ff25f211-e9de-4f1e-b5e1-bd42351224e6",
@@ -60,6 +68,14 @@
                 "id": "5fc2aa72-68ca-4835-92d8-3c8ac896aa24",
                 "resourcePath": "objects\\o_WavesAI\\o_WavesAI.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "08c0889d-be79-4aae-a1e5-719e1150ef14",
+            "Value": {
+                "id": "da44075e-eb65-4a8a-92c3-75bcc276b263",
+                "resourcePath": "sounds\\s_Footstep2\\s_Footstep2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -119,6 +135,22 @@
             }
         },
         {
+            "Key": "2567f8c1-8dcc-47cf-a3ad-444e2114a93d",
+            "Value": {
+                "id": "6b82ff11-c4f7-4654-a6d6-c2aed742ba43",
+                "resourcePath": "sounds\\s_Footstep6\\s_Footstep6.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "269e58e8-e1e2-4f65-a104-b412ab65b378",
+            "Value": {
+                "id": "b0b6a478-1cb8-40f5-a1e2-3ae1c6044b19",
+                "resourcePath": "sounds\\s_Footstep4\\s_Footstep4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2c6eb562-5ec4-4e01-8620-94b50b54a3a4",
             "Value": {
                 "id": "78a54b34-44a1-46e5-9fa4-61daa7c3e99b",
@@ -167,10 +199,42 @@
             }
         },
         {
+            "Key": "3442ed8c-d4c5-4ec2-ae9e-d91b7510d4b7",
+            "Value": {
+                "id": "b99d5108-8267-492f-9fbf-07f4397ef26b",
+                "resourcePath": "sounds\\s_Damage01\\s_Damage01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "35279f88-4282-43fc-9b3d-858f15b8b251",
+            "Value": {
+                "id": "4f2ebdf0-b01b-4a0a-8f7c-2dfadb37952e",
+                "resourcePath": "objects\\o_TeleportToSafety\\o_TeleportToSafety.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3551f379-c699-4b47-b6cf-4d77ba491c5d",
             "Value": {
                 "id": "86eb7a8e-dd9d-4997-ac25-12786f2bddc1",
                 "resourcePath": "sprites\\s_EnemySpawner\\s_EnemySpawner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "36095f58-4d53-45d5-af0d-70eca5ec4802",
+            "Value": {
+                "id": "6ac5d3c8-7849-4aba-8c65-2785ca062eb1",
+                "resourcePath": "sounds\\s_Footstep8\\s_Footstep8.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "36987e40-6a43-447f-94f6-56ee2a5ef13d",
+            "Value": {
+                "id": "712b8685-57e8-4a64-8224-f81fb54b2764",
+                "resourcePath": "sprites\\s_Dog\\s_Dog.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -375,6 +439,14 @@
             }
         },
         {
+            "Key": "6f182d49-b37c-41f3-a51b-c29d8d576d50",
+            "Value": {
+                "id": "615a3c92-91ac-45af-9933-2bbcf4d35209",
+                "resourcePath": "sounds\\s_Footstep7\\s_Footstep7.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "74ecf2b3-f10a-474b-af57-ca9f1076394d",
             "Value": {
                 "id": "9ec2a9fb-1aa2-4f28-8475-318da3669882",
@@ -463,6 +535,22 @@
             }
         },
         {
+            "Key": "8a08262f-f345-4e34-bda6-d240164629bc",
+            "Value": {
+                "id": "a2e7e2a6-1dee-4db2-b391-17f3679b3c6f",
+                "resourcePath": "sprites\\s_TeleportToSafety\\s_TeleportToSafety.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a8a416c-5da4-4b19-9926-e899a39120f1",
+            "Value": {
+                "id": "83fede0b-618d-4602-bc6d-9af040ab2902",
+                "resourcePath": "sounds\\s_Shoot\\s_Shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8c43f73c-d608-4dd8-a05f-78fc233c50e8",
             "Value": {
                 "id": "e7c1197a-5619-4330-bb4b-0897851a7e1f",
@@ -484,6 +572,14 @@
                 "id": "b3e946e1-84f4-4ae1-a856-9a3235b41c35",
                 "resourcePath": "objects\\o_Grass\\o_Grass.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8fab1926-b322-497d-8c5b-53b44d0a9d0b",
+            "Value": {
+                "id": "ceffa885-6ecc-42e2-b9a4-7c428d1db17e",
+                "resourcePath": "sounds\\s_Footstep1\\s_Footstep1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -658,7 +754,7 @@
             "Key": "bbdb71ce-d88a-45af-a3b9-513a9572e488",
             "Value": {
                 "id": "a983164d-8e7c-4670-94d3-a496b5d07fa0",
-                "resourcePath": "sprites\\s_Dog\\s_Dog.yy",
+                "resourcePath": "sprites\\s_DogRunning\\s_DogRunning.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -676,6 +772,14 @@
                 "id": "50fefdb3-27a1-4fbe-aec4-f786c9ca54af",
                 "resourcePath": "sprites\\s_Dog2\\s_Dog2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c05f9ac0-a6f4-43c7-bb3b-f477c44cfc85",
+            "Value": {
+                "id": "4bd47d8a-1e5e-4892-b587-042a7f276852",
+                "resourcePath": "sounds\\s_Footstep3\\s_Footstep3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -796,6 +900,14 @@
                 "id": "732116d7-71fd-446e-947d-8f8283170eef",
                 "resourcePath": "sprites\\s_Slime_death\\s_Slime_death.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f102acdb-c18b-4ebc-926b-065896779b76",
+            "Value": {
+                "id": "a638c469-2404-438d-9dbe-88cfca2373d0",
+                "resourcePath": "sounds\\s_Footstep5\\s_Footstep5.yy",
+                "resourceType": "GMSound"
             }
         },
         {

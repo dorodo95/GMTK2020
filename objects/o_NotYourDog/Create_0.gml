@@ -1,6 +1,6 @@
 
 
-Sound=s_RandomBark2;
+Sound=s_RandomBark3;
 
 BarkOneTime=false;
 
