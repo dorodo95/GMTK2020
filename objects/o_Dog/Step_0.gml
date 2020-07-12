@@ -51,7 +51,7 @@ if (DogState="Walking")
 	//FootstepSound
 	if (alarm[2]<=0)
 	{
-		audio_play_sound(choose(s_Footstep1,s_Footstep2,s_Footstep3,s_Footstep4,s_Footstep5,s_Footstep6,s_Footstep7,s_Footstep8),0,0);
+		audio_play_sound(choose(s_DogFootstep1,s_DogFootstep2,s_DogFootstep3,s_DogFootstep4,s_DogFootstep5,s_DogFootstep6,s_DogFootstep7,s_DogFootstep8),0,0);
 		alarm[2]=FootStepSpeed;
 	}
 }
@@ -107,7 +107,7 @@ if (DogState=="Dragging")
 	//FootstepSound
 	if (alarm[2]<=0)
 	{
-		audio_play_sound(choose(s_Footstep1,s_Footstep2,s_Footstep3,s_Footstep4,s_Footstep5,s_Footstep6,s_Footstep7,s_Footstep8),0,0);
+		audio_play_sound(choose(s_DogFootstep1,s_DogFootstep2,s_DogFootstep3,s_DogFootstep4,s_DogFootstep5,s_DogFootstep6,s_DogFootstep7,s_DogFootstep8),0,0);
 		alarm[2]=FootStepSpeed;
 	}
 }
@@ -168,6 +168,11 @@ if (FindAnotherPosition==true)
 
 if (DogState=="Sitted" && point_distance(x,y,o_Player.x,o_Player.y)<DinstanceToPet)
 {
+	if (BarkOneTime==true)
+	{
+		audio_play_sound(s_MainBark6,0,0);
+		BarkOneTime=false
+	}
 	PetTheDog=true;
 	if (instance_exists(o_Weapon))
 	instance_deactivate_object(o_Weapon);
@@ -175,8 +180,9 @@ if (DogState=="Sitted" && point_distance(x,y,o_Player.x,o_Player.y)<DinstanceToP
 }
 else
 {
+	BarkOneTime=true
 	PetTheDog=false;
-	if (DogState!="Sitted" && DogState!="PetTheDogHappening")
+	if (DogState!="PetTheDogHappening")
 	instance_activate_object(o_Weapon);
 	
 }

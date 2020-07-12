@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "12227413-0085-43f5-a4f9-051a10e8e555",
+            "Value": {
+                "id": "b089edbb-a42d-437e-8165-d56d0a43ae89",
+                "resourcePath": "objects\\o_EnemyForGif\\o_EnemyForGif.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "128bcc6c-8012-4e52-8c0e-bf994f7958f2",
+            "Value": {
+                "id": "d60e3131-6b18-4008-89ab-fe4cdcf8306c",
+                "resourcePath": "sounds\\s_DogFootstep3\\s_DogFootstep3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "16200148-8750-472d-b10f-5e88ed82c634",
             "Value": {
                 "id": "97977988-3675-42a7-a48f-5972e4a8f142",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "396bf75f-b3ea-476c-bf5c-6f46dd34571f",
+            "Value": {
+                "id": "19156993-a88d-42af-8186-a8e106b0d689",
+                "resourcePath": "objects\\o_DogForGif\\o_DogForGif.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b7e5695-4bb3-4899-ac6a-70bab74e7b6e",
             "Value": {
                 "id": "5ace89b4-fcbb-4196-b5fe-5e1dd70c223c",
@@ -299,6 +323,14 @@
             "Value": {
                 "id": "3929fa52-06cc-41cf-9328-4af783566724",
                 "resourcePath": "views\\3bdba963-4768-4086-85ca-7f5a37abf927.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3beb91ea-d800-47a1-a3a4-b116ab029327",
+            "Value": {
+                "id": "b46da3a3-d3f8-416c-9d83-63eecdecfd1b",
+                "resourcePath": "views\\3beb91ea-d800-47a1-a3a4-b116ab029327.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -439,6 +471,14 @@
             }
         },
         {
+            "Key": "592c8359-866c-402d-b674-ef01742f5d8e",
+            "Value": {
+                "id": "b1699974-5aef-4a02-9103-abc427860f50",
+                "resourcePath": "sounds\\s_DogFootstep6\\s_DogFootstep6.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5b7f8f5a-27d2-4f3d-b21c-ca4c2d5e1495",
             "Value": {
                 "id": "6d923f19-2507-4812-bf6a-2a7b2f0ec341",
@@ -452,6 +492,14 @@
                 "id": "1bfba401-e5c5-4098-8031-1848e1663aaf",
                 "resourcePath": "tilesets\\map\\map.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5f00a489-27bf-4dc7-b5be-fb1f8810d4d8",
+            "Value": {
+                "id": "5073ae34-30fe-45da-9cf0-f4c45cb48b39",
+                "resourcePath": "sounds\\s_DogFootstep7\\s_DogFootstep7.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -487,6 +535,22 @@
             }
         },
         {
+            "Key": "67deb932-f4c0-4362-9319-f154c73cd0c1",
+            "Value": {
+                "id": "6f49c438-2310-4bc6-86e1-72a8d8153bf2",
+                "resourcePath": "sounds\\s_DogFootstep2\\s_DogFootstep2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "683e4fc7-8cc9-4d1a-90b5-46acb16415b0",
+            "Value": {
+                "id": "7267dcb0-31a8-4720-8173-e9cf845e569f",
+                "resourcePath": "sounds\\s_DogFootstep4\\s_DogFootstep4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6d83448f-6794-4091-b1f4-c6b4c1b99f84",
             "Value": {
                 "id": "d1d22fbf-b393-49ad-a334-c73d89f5a01c",
@@ -500,6 +564,14 @@
                 "id": "615a3c92-91ac-45af-9933-2bbcf4d35209",
                 "resourcePath": "sounds\\s_Footstep7\\s_Footstep7.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "727901bb-b552-4452-a340-89b1677bc0b9",
+            "Value": {
+                "id": "fc1ade93-0cdf-4924-9959-46dfb73a95cf",
+                "resourcePath": "rooms\\GifRoom\\GifRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -711,6 +783,14 @@
             }
         },
         {
+            "Key": "a0daf7f0-c302-49bf-93bd-48abde244663",
+            "Value": {
+                "id": "662f8fd5-f3a7-4b19-8aed-390ee84f17a5",
+                "resourcePath": "sounds\\s_DogFootstep5\\s_DogFootstep5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "43eec79b-d949-4489-80d8-82228e855274",
@@ -919,6 +999,14 @@
             }
         },
         {
+            "Key": "de83b528-8845-4745-98c8-e32c7369dcb3",
+            "Value": {
+                "id": "d694dd38-8b73-46b3-88df-71fdab9f64b2",
+                "resourcePath": "sounds\\s_DogFootstep8\\s_DogFootstep8.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e2e0b8c2-2a6c-4bcf-81bd-6142bc949bb8",
             "Value": {
                 "id": "5859aef0-fa41-4593-9059-09e8242646be",
@@ -1076,6 +1164,14 @@
                 "id": "39637a00-4684-4abf-b16f-73a0eac3206f",
                 "resourcePath": "sprites\\s_SoundController\\s_SoundController.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8f54036-e56e-405c-99b3-bf920a2aded4",
+            "Value": {
+                "id": "df6c574b-c501-4ab1-9145-54d2c16bff44",
+                "resourcePath": "sounds\\s_DogFootstep1\\s_DogFootstep1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

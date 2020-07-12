@@ -16,8 +16,17 @@ if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 	}
 	else
 	{
+
+		
 		MoveX= lengthdir_x(WalkSpeed, Direction)
 		MoveY= lengthdir_y(WalkSpeed, Direction)
+	}
+	
+	
+	if (alarm[1]<=0)
+	{
+		alarm[1]=13;
+		audio_play_sound(choose(s_Footstep1,s_Footstep2,s_Footstep3,s_Footstep4,s_Footstep5,s_Footstep6,s_Footstep7,s_Footstep8),0,0);
 	}
 	
 	if (!place_meeting(x+MoveX,y,o_LesserWall))

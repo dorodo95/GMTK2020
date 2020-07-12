@@ -19,6 +19,7 @@ with (o_Player)
 		audio_sound_pitch(s_Shoot,random_range(0.9,1.2));
 		audio_play_sound(s_Shoot,0,0);
 		part_particles_create(other.mySystem,x+irandom_range(-5,5),y+irandom_range(-5,5),other.myParticle,1);
+		if (instance_exists(o_Camera))
 		o_Camera.ScreenShakeOn=true;
 		FiringDelay=FiringDelayValue;
 		var _xx = other.x + lengthdir_x(DistanceForBulletSpawn, other.image_angle);

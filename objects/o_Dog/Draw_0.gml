@@ -5,7 +5,7 @@ draw_set_color(c_white);
 //Collar
 if (!(DogState=="Sitted"))
 {
-	draw_line_width(x,y,o_Player.x,o_Player.y,2);
+	draw_line_width(x,y,o_Player.x,o_Player.y+5,2);
 }
 
 if (!isHit)

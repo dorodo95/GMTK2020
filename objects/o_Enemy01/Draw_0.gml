@@ -7,5 +7,3 @@ else
 	draw_self();
 	gpu_set_fog(false, c_white, 0, 0);
 }
-
-draw_text(x+10,y+10,string(speed));

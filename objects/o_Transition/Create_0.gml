@@ -10,5 +10,6 @@ OneTrigger=false;
 
 
 RoomNumber=0;
-global.BulletParticle=o_Weapon;
-part_particles_clear(global.BulletParticle);
+
+if (instance_exists(o_Weapon))
+part_particles_clear(o_Weapon.mySystem);

@@ -37,7 +37,7 @@ BulletsDogReceived=0;
 
 TimeToChangePosition=200;
 
-
+BarkOneTime=true;
 
 //HeartParticle
 mySystem=part_system_create();
@@ -51,6 +51,8 @@ part_type_direction(myParticle,0,180,0,0);
 part_type_speed(myParticle,0.1,0.3,0,0);
 
 RangeToSpawnParticle=20;
+
+
 
 
 
