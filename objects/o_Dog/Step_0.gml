@@ -104,7 +104,7 @@ if (DogState=="Sitted")
 {
 	speed=0;
 	FoundArea=false;
-	if (PetTheDog==true && o_Player.MouseClick==true)
+	if (PetTheDog==true && o_Player.SpacePressed==true)
 	{
 		DogState="PetTheDogHappening";
 		o_WaveStarter.alarm[0]=o_WaveStarter.TimeForAlarm0;

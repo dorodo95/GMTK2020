@@ -1,8 +1,8 @@
 hInput= keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-MouseClick = mouse_check_button(mb_left);
+SpacePressed = keyboard_check(vk_space);
 
-if (hInput !=0 || vInput !=0){
+if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 	Direction = point_direction(0,0,hInput, vInput);
 	
 	if (o_Dog.DogState=="Dragging" || o_Dog.DogState=="Walking")
@@ -61,3 +61,16 @@ if (MoveX>0)
 image_xscale=1;
 else
 image_xscale=-1;
+
+
+if (HP<=0)
+{
+	room_restart();
+}
+
+//CreateWeapon
+if (!instance_exists(o_Weapon))
+{
+	if (o_Dog.DogState=="Walking")
+	instance_create_layer(x,y,"Weapon",o_Weapon);
+}

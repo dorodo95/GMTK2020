@@ -1,18 +1,18 @@
 {
-    "id": "3d1a40ca-1608-4db2-a87e-bcc0d6f85dcd",
+    "id": "9fc07584-0b21-4e27-8737-ec0f7e30617b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_street_light",
+    "name": "o_FindYourDog",
     "eventList": [
         {
-            "id": "42484635-b15b-4eb0-aa97-eab00d5f16b3",
+            "id": "64a6c1f0-6be2-4d72-977f-3b04ccb494f6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3d1a40ca-1608-4db2-a87e-bcc0d6f85dcd"
+            "eventtype": 8,
+            "m_owner": "9fc07584-0b21-4e27-8737-ec0f7e30617b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "78bb9f36-9cfe-43e7-aa58-8cb503c76b64",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

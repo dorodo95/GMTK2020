@@ -1,19 +1,10 @@
 {
-    "id": "3d1a40ca-1608-4db2-a87e-bcc0d6f85dcd",
+    "id": "5720f99a-3c62-407b-97b9-cd467da4dbc9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_street_light",
+    "name": "o_street_light_base",
     "eventList": [
-        {
-            "id": "42484635-b15b-4eb0-aa97-eab00d5f16b3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3d1a40ca-1608-4db2-a87e-bcc0d6f85dcd"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "78bb9f36-9cfe-43e7-aa58-8cb503c76b64",
+    "spriteId": "0cb35f39-9e19-4408-a057-8017452418af",
     "visible": true
 }

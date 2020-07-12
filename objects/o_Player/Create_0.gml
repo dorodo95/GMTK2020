@@ -1,5 +1,5 @@
-WalkSpeedDragging=2;
-WalkSpeed=2;
+WalkSpeedDragging=1.5;
+WalkSpeed=1.5;
 Direction=0;
 AreaList=ds_list_create();
 
@@ -37,9 +37,10 @@ part_system_depth(myParticle,201);
 
 
 
-//CreateWeapon
-instance_create_layer(x,y,"Weapon",o_Weapon);
+
 
 
 MoveX=0;
 MoveY=0;
+
+HP=3;

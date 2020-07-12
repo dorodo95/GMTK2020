@@ -15,7 +15,7 @@ else
 
 with (o_Player)
 {
-	if (MouseClick==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
+	if (SpacePressed==true && FiringDelay<=0 && o_Dog.PetTheDog==false)
 	{
 		FiringDelay=FiringDelayValue;
 		var _xx = x + lengthdir_x(DistanceForBulletSpawn, other.image_angle);
