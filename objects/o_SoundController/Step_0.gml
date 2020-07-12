@@ -12,9 +12,9 @@ if (o_Dog.DogState=="Sitted")
 if (VolumeKey==true)
 {
 	if (GeneralVolume!=0)
-	GeneralVolume-=0.2;
+	GeneralVolume-=0.1;
 	else
-	GeneralVolume=1;
+	GeneralVolume=0.5;
 	
 	audio_master_gain(GeneralVolume);
 }

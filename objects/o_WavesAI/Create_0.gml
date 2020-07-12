@@ -1,11 +1,49 @@
 WaveNumber=0;
 
-SpawnNumberWave[0]=20;
-SpawnCadenceWave[0]=30;
+SpawnNumberWave[0]=5;
+SpawnCadenceWave[0]=50;
+EnemySpeed[0]=0.3;
 
-SpawnNumberWave[1]=30;
-SpawnCadenceWave[1]=25;
+SpawnNumberWave[1]=10;
+SpawnCadenceWave[1]=40;
+EnemySpeed[1]=0.35;
 
+
+SpawnNumberWave[2]=15;
+SpawnCadenceWave[2]=40;
+EnemySpeed[2]=0.4;
+
+SpawnNumberWave[3]=20;
+SpawnCadenceWave[3]=35;
+EnemySpeed[3]=0.45;
+
+SpawnNumberWave[4]=25;
+SpawnCadenceWave[4]=35;
+EnemySpeed[4]=0.5;
+
+SpawnNumberWave[5]=30;
+SpawnCadenceWave[5]=30;
+EnemySpeed[5]=0.55;
+
+SpawnNumberWave[6]=35;
+SpawnCadenceWave[6]=30;
+EnemySpeed[6]=0.60;
+
+SpawnNumberWave[7]=40;
+SpawnCadenceWave[7]=25;
+EnemySpeed[7]=0.60;
+
+SpawnNumberWave[8]=45;
+SpawnCadenceWave[8]=25;
+EnemySpeed[8]=0.65;
+
+SpawnNumberWave[9]=50;
+SpawnCadenceWave[9]=20;
+EnemySpeed[9]=0.65;
+
+SpawnNumberWave[10]=55;
+SpawnCadenceWave[10]=20;
+EnemySpeed[10]=0.70;
 
 SpawnCurrentWave=0;
 

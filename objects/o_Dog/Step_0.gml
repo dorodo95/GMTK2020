@@ -1,6 +1,6 @@
 if (instance_exists(o_WavesAI))
 {
-	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true && DogState!="PetTheDogHappening")
+	if (o_WavesAI.ChangeWave==false && !instance_exists(o_Enemy01) && o_WavesAI.WaveFinished==true && DogState!="PetTheDogHappening" && DogState!="Sitted")
 	{
 		DogState="Sitted";
 	}
@@ -106,13 +106,29 @@ if (DogState=="Sitted")
 	FoundArea=false;
 	if (PetTheDog==true && o_Player.Input1Pressed==true)
 	{
+		alarm[0]=0;
+		if (o_WavesAI.WaveNumber<=4)
+		{
+			WalkingSpeed+=0.3;
+			DogSpeedDraggingForce=WalkingSpeed;
+			DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;
+		}
+		else if (o_WavesAI.WaveNumber>4)
+		{
+			WalkingSpeed+=0.2;
+			DogSpeedDraggingForce=WalkingSpeed;
+			DogSpeedDraggingForceCalculated=DogSpeedDraggingForce-o_Player.WalkSpeedDragging;			
+		}
 		DogState="PetTheDogHappening";
 		audio_play_sound(s_PatDog,0,0);
+		o_Player.x=x+9;
+		o_Player.y=y-3;
+		o_Player.sprite_index=s_PlayerPetDog;
 		o_WaveStarter.alarm[0]=o_WaveStarter.TimeForAlarm0;
 	}
 }
 
-if (DogState=="PetTheDogHappening")
+if (DogState=="PetTheDogHappening" && o_Player.sprite_index!=s_PlayerPetDog)
 {
 	part_particles_create(mySystem,x+irandom_range(-RangeToSpawnParticle,RangeToSpawnParticle),y+irandom_range(-RangeToSpawnParticle,RangeToSpawnParticle),myParticle,1);
 }
