@@ -1,6 +1,10 @@
 hInput= keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 Input1Pressed = keyboard_check(ord("X"));
+CtrlKeyPressed = keyboard_check_pressed(vk_control);
+
+if (CtrlKeyPressed)
+global.CtrlKey++;
 
 if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 	Direction = point_direction(0,0,hInput, vInput);
@@ -70,15 +74,19 @@ image_xscale=-1;
 
 if (HP<=0)
 {
-	room_restart();
+	global.LastWave=o_WavesAI.WaveNumber;
+	{
+		with (instance_create_layer(x,y,"UI",o_Transition))
+		RoomNumber=1;
+	}
 }
 
 //CreateWeapon
-if (!instance_exists(o_Weapon))
-{
-	if (o_Dog.DogState=="Walking")
-	instance_create_layer(x,y,"Weapon",o_Weapon);
-}
+//if (!instance_exists(o_Weapon))
+//{
+//	if (o_Dog.DogState=="Walking")
+//	instance_create_layer(x,y,"Weapon",o_Weapon);
+//}
 
 
 
@@ -91,3 +99,4 @@ if (sprite_index==s_PlayerPetDog)
 		sprite_index=s_Player;
 	}
 }
+

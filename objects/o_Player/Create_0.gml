@@ -44,4 +44,10 @@ DogMoveY=0;
 MoveX=0;
 MoveY=0;
 
-HP=3;
+HP=2;
+
+GotHitCheckHearts=false;
+
+
+instance_create_layer(x,y,"Weapon",o_Weapon);
+instance_deactivate_object(o_Weapon);

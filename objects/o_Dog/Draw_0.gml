@@ -8,7 +8,15 @@ if (!(DogState=="Sitted"))
 	draw_line_width(x,y,o_Player.x,o_Player.y,2);
 }
 
+if (!isHit)
 draw_self();
+
+else
+{
+	gpu_set_fog(true, c_white, 0, 0);
+	draw_self();
+	gpu_set_fog(false, c_white, 0, 0);
+}
 
 if (instance_exists(o_Controller))
 {

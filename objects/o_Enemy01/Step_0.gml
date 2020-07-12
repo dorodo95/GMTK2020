@@ -1,23 +1,24 @@
-
+speed=Speed;
 _xx = x + lengthdir_x(30, direction);
 _yy = y + lengthdir_y(30, direction);
 
 
-if (PlayerReceivedDamage==false)
-{
-	with(collision_circle(x, y, 12, o_Enemy01,0,0))
-	move_towards_point(other.x,other.y,-Speed);
+	if (PlayerReceivedDamage==false)
+	{
+		with(collision_circle(x, y, 12, o_Enemy01,0,0))
+		move_towards_point(other.x,other.y,-Speed);
 
 
-	move_towards_point(o_Player.x,o_Player.y,Speed);
-}
+		move_towards_point(o_Player.x,o_Player.y,Speed);
 
-else
-{
-	move_towards_point(o_Player.x,o_Player.y,-Speed*20);
-	if (alarm[0]<=0)
-	alarm[0]=10;
-}
+	}
+
+	else
+	{
+		move_towards_point(o_Player.x,o_Player.y,-Speed*20);
+		if (alarm[0]<=0)
+		alarm[0]=10;
+	}
 
 
 if (HP<=0)
@@ -28,6 +29,8 @@ if (o_Player.x<x)
 image_xscale=1;
 else
 image_xscale=-1;
+
+
 
 
 

@@ -12,7 +12,6 @@ else
 }
 
 
-
 with (o_Player)
 {
 	if (Input1Pressed==true && FiringDelay<=0 && o_Dog.PetTheDog==false)

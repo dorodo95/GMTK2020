@@ -22,5 +22,9 @@ if (KeyDebug)
 }
 
 if (KeyReset)
-room_restart();
+{
+	with (instance_create_layer(x,y,"UI",o_Transition))
+	RoomNumber=1;
+}
+//room_restart();
 	

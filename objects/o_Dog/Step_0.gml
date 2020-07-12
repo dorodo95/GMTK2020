@@ -134,6 +134,7 @@ if (DogState=="Sitted")
 		}
 		DogState="PetTheDogHappening";
 		audio_play_sound(s_PatDog,0,0);
+		
 		o_Player.x=x+9;
 		o_Player.y=y-3;
 		o_Player.sprite_index=s_PlayerPetDog;
@@ -166,10 +167,19 @@ if (FindAnotherPosition==true)
 
 
 if (DogState=="Sitted" && point_distance(x,y,o_Player.x,o_Player.y)<DinstanceToPet)
-PetTheDog=true;
+{
+	PetTheDog=true;
+	if (instance_exists(o_Weapon))
+	instance_deactivate_object(o_Weapon);
+	
+}
 else
-PetTheDog=false;
-
+{
+	PetTheDog=false;
+	if (DogState!="Sitted" && DogState!="PetTheDogHappening")
+	instance_activate_object(o_Weapon);
+	
+}
 
 //Mirror Image
 if (o_Player.x>x)

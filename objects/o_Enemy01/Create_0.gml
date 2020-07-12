@@ -7,4 +7,3 @@ _yy = y + lengthdir_y(Speed, direction);
 PlayerReceivedDamage=false;
 
 isHit=false;
-

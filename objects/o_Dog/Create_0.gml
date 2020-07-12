@@ -6,7 +6,7 @@ DogAreaDirection=irandom_range(0,7);
 DogState="Sitted";
 
 
-
+isHit=false;
 
 
 
@@ -35,7 +35,7 @@ PetTheDog=false;
 
 BulletsDogReceived=0;
 
-TimeToChangePosition=400;
+TimeToChangePosition=200;
 
 
 
