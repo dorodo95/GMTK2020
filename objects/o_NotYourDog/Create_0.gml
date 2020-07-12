@@ -1,4 +1,8 @@
-sprite_index=s_Dog;
+
+
+Sound=s_RandomBark2;
+
+BarkOneTime=false;
 
 CloseEnough=false;
 Randomize=true;

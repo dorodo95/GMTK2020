@@ -107,6 +107,7 @@ if (DogState=="Sitted")
 	if (PetTheDog==true && o_Player.Input1Pressed==true)
 	{
 		DogState="PetTheDogHappening";
+		audio_play_sound(s_PatDog,0,0);
 		o_WaveStarter.alarm[0]=o_WaveStarter.TimeForAlarm0;
 	}
 }

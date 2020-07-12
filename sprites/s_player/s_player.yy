@@ -7,8 +7,8 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 23,
-    "bbox_left": 7,
-    "bbox_right": 17,
+    "bbox_left": 9,
+    "bbox_right": 15,
     "bbox_top": 20,
     "bboxmode": 2,
     "colkind": 1,
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 24,
     "xorig": 12,
-    "yorig": 18
+    "yorig": 12
 }

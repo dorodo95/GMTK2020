@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_Enemy01Corpse",
     "eventList": [
-        
+        {
+            "id": "ea156854-ffeb-4c42-a4b9-970bd292bc85",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "0f1d1b29-d53a-4854-8f8c-d8b43967b3ba"
+        },
+        {
+            "id": "7c085576-a018-4a7d-8ab8-916d8f7a2937",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0f1d1b29-d53a-4854-8f8c-d8b43967b3ba"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "eb5dc881-d65f-43e6-8d5a-d7a7439d845f",
+    "spriteId": "ec0f4aef-3b06-4490-9c6d-fd80486ae068",
     "visible": true
 }

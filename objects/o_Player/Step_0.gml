@@ -16,14 +16,16 @@ if ((hInput !=0 || vInput !=0) && o_Dog.DogState!="PetTheDogHappening"){
 		MoveY= lengthdir_y(WalkSpeed, Direction)
 	}
 	
-	
-	
-	
 	if (!place_meeting(x+MoveX,y,o_LesserWall))
 	x += MoveX;
 	if (!place_meeting(x,y+MoveY,o_LesserWall))
 	y += MoveY;
+	
+	sprite_index=s_Player_walk;
+	
 }
+else
+sprite_index=s_Player;
 
 if (instance_exists(o_Dog))
 {
@@ -38,7 +40,7 @@ if (instance_exists(o_Dog))
 		
 			if (!place_meeting(x+DogMoveX,y,o_LesserWall))
 			{
-				part_particles_create(mySystem,x+irandom_range(-5,5),y+5,myParticle,1);
+				part_particles_create(mySystem,x+irandom_range(-5,5),y+10,myParticle,1);
 				x += DogMoveX/instance_number(o_Dog);
 			}
 			else
@@ -47,7 +49,7 @@ if (instance_exists(o_Dog))
 		
 			if (!place_meeting(x,y+DogMoveY,o_LesserWall))
 			{
-				part_particles_create(mySystem,x+irandom_range(-5,5),y+5,myParticle,1);
+				part_particles_create(mySystem,x+irandom_range(-5,5),y+10,myParticle,1);
 				y += DogMoveY/instance_number(o_Dog);
 			}
 			else

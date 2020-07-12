@@ -1,10 +1,10 @@
 WaveNumber=0;
 
-SpawnNumberWave[0]=10;
-SpawnCadenceWave[0]=50;
+SpawnNumberWave[0]=20;
+SpawnCadenceWave[0]=30;
 
-SpawnNumberWave[1]=20;
-SpawnCadenceWave[1]=50;
+SpawnNumberWave[1]=30;
+SpawnCadenceWave[1]=25;
 
 
 SpawnCurrentWave=0;

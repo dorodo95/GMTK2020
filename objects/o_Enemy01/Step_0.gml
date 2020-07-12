@@ -23,5 +23,11 @@ else
 if (HP<=0)
 instance_destroy();
 
+//Mirror Image
+if (o_Player.x<x)
+image_xscale=1;
+else
+image_xscale=-1;
+
 
 

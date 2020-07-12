@@ -33,7 +33,7 @@ part_type_size(myParticle,0.1,1,0,0);
 part_type_direction(myParticle,0,180,0,0);
 part_type_speed(myParticle,0.1,0.3,0,0);
 
-part_system_depth(myParticle,201);
+part_system_depth(myParticle,401);
 
 
 
